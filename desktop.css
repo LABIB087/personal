@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: white;*/
+    background: #306795;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.nav-logo img {
+    display: none;
+}
+
+.nav-heading h2 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-right: 90px;
+}
+
+.nav-menu a {
+    float: left;
+    margin: 32px 10px;
+    padding: 5px;
+    font-size: 28px;
+    color: white;
+    /*background: white;*/
+    background: #306790;
+}
+
+.nav-menu a:hover {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+/* navbar end here */
+
+/* profile start here */
+.profile {
+    height: 68vh;
+    width: 100%;
+    /*background: red;*/
+}
+
+.top-pic img {
+    width: 220px;
+    transition-property: width;
+    transition: transform 2s;
+    border-radius: 50%;
+}
+
+.top-pic img:hover {
+    transform: rotate(360deg);
+    width: 280px;
+}
+
+.bottom-pic img {
+    width: 220px;
+    position: absolute;
+    bottom: 110px;
+    padding-top: 10px;
+    border-radius: 50%;
+    transition-property: width;
+    transition: transform 2s;
+}
+
+.bottom-pic img:hover {
+    transform: rotate(360deg);
+    width: 280px;
+}
+
+.profile-dis {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.profile-dis h2 {
+    font-size: 80px;
+    font-family: 'Satisfy', cursive;
+}
+
+.profile-dis h2 span {
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 800;
+    color: #8845f4;
+}
+
+.profile-dis p {
+    width: 90%;
+    line-height: 60px;
+    color: gray;
+    font-size: 39px;
+    padding-top: 30px;
+    margin-left: 49px;
+}
+/* profile end here */
+
+/* About page start here */
+.about-heading h2{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+.about-img{
+    display: flex;
+    justify-content: flex-start;
+}
+.about-img img{
+    width: 350px;
+    height: 350px;
+    top: 300px;
+}
+.about-dis{
+    display: flex;
+    width: 500px;
+    position: relative;
+    top: -280px;
+    left: 46%;
+}
+.about-dis p{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+.about-dis+hr{
+    display: none;
+}
+.about-me{
+    position: relative;
+    top: -100px;
+}
+.about-me h5{
+    font-size: 40px;
+    margin: 40px 20px;
+    text-align: center;
+}
+.about-me hr{
+    display: none;
+}
+.about-me button{
+    padding: 20px;
+    font-size: 29px;
+    margin: 50px auto;
+}
+/* About page end here */
+
+/* Skill part start here */
+.skills{
+    height: 100vh;
+    display: flex;
+}
+.skill-titel{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 2760px;
+    left: 50% ;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+.skill-titel h2{
+    font-size: 50px;
+}
+.education-card{
+    margin: 100px 20px;
+    width: 50%;
+    height: fit-content;
+}
+.education-card ol{
+    font-size: 30px;
+    line-height: 50px;
+    padding: 20px;
+}
+.programming{
+    margin-top: 100px;
+    width: 50%;
+    height: 1338px;
+}
+.progrees ul > li{
+    font-size: 40px;
+    margin: 70px 0px;
+}
+.progrees ul li::before{
+    height: 30px;
+}
+.progrees ul li::after{
+    height: 30px;
+}
+
+
+/* Skill part end here */
+
+/*Contact part start here*/
+
+
+.contact-part{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.contact{
+    grid-column: 2/4;
+}
+.contact h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.contact input,textarea{
+    width: 100%;
+    font-size: 2rem;
+}
+.achievement{
+    grid-column: 1/2;
+}
+.achievement h2{
+    font-size: 30px;
+}
+.achievement ol li{
+    font-size: 30px;
+    line-height: 45px;
+    padding: 10px;
+}
+.contact-links{
+    grid-column: 4/6;
+    text-align: center;
+    color: white;
+}
+.contact-links h2{
+    font-size: 30px;
+    margin: -12px auto;
+}
+.contact-links .dot-hr{
+    margin-top: 20px;
+}
+.links{
+    /*background: red;*/
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.links .btn{
+    text-align: center;
+    width: 80px;
+    margin: 20px 10px;
+    border-radius: 50px;
+    
+}
+.btn i{
+    font-size: 50px;
+}
+/*Contact part end here*/
+
+/*footer part start here*/
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+.footer-menu a{
+    font-size: 2rem;
+    margin: 20px 10px;
+    margin-top: 30px;
+}
+.footer-dis{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+/*footer part end here*/

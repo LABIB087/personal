@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cuprum', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+hr {
+    border: 1px solid white;
+    border-bottom: none;
+}
+
+/* navbar start here */
+.navbar {
+    /*background: #064568;*/
+    background: #306795;
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    height: 79vh;
+}
+
+.nav-logo img {
+    width: 120px;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+
+.nav-heading h2 {
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}
+
+.nav-menu a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 10px 0px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu a:hover {
+    background-color: gray;
+    transition: 1.2s;
+}
+
+/* navbar end here */
+
+/* profile start here */
+
+.profile {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /*background: red;*/
+}
+
+.top-pic img {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    transition: transform 2s;
+    border-radius: 50%;
+}
+
+.top-pic img:hover {
+    transform: rotate(360deg);
+}
+
+.bottom-pic img {
+    width: 120px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    padding-top: 10px;
+    border-radius: 50%;
+    transition: transform 2s;
+}
+
+.bottom-pic img:hover {
+    transform: rotate(360deg);
+}
+
+.profile-dis {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.profile-dis h2 {
+    font-size: 40px;
+    font-family: 'Satisfy', cursive;
+}
+
+.profile-dis h2 span {
+    font-size: 35px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 800;
+    color: #8845f4;
+}
+
+.profile-dis p {
+    width: 98%;
+    line-height: 25px;
+    color: gray;
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+/* profile end here */
+
+/* About page start here */
+.aboutme {
+    background-color: #036759;
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    height: 100vh;
+}
+
+.about-heading {
+    padding: 5px 0px;
+}
+
+.about-heading h2 {
+    font-size: 26px;
+    padding: 25px auto;
+}
+
+.dot-hr {
+    border: dotted 5px;
+    border-bottom: none;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.about-img {
+    padding: 5px 0px;
+}
+
+.about-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.about-dis p {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 7px 0px;
+}
+
+.about-me h5 {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px auto;
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+.about-me button {
+    padding: 7px;
+    margin: 10px auto;
+    border-radius: 7px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #222510;
+    color: white;
+}
+
+/* About page end here */
+
+/* Skill part start here */
+
+.skills {
+    /*background: lightcyan;*/
+    padding: 20px;
+}
+
+.skills h2 {
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.education-card {
+    background-color: lightgrey;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 9px;
+    transition: 3s;
+    height: 650px;
+}
+
+.education-card:hover {
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
+}
+
+.edu-img {
+    text-align: center;
+}
+
+.edu-img img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 10px 0px;
+}
+
+.edu-heading {
+    background: rgba(0, 110, 110, 0.3);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.edu-heading h3 {
+    font-size: 22px;
+}
+
+.edu-info {
+    margin: 10px;
+    line-height: 26px;
+}
+
+.edu-info ol li span {
+    font-weight: bolder;
+    color: #8845f4;
+}
+
+.programming {
+    background-color: lightgrey;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 9px;
+    transition: 3s;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.programming:hover {
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.8);
+}
+
+.pro-img {
+    text-align: center;
+}
+
+.pro-img img {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10px 0px;
+}
+
+.pro-heading {
+    background: rgba(0, 110, 110, 0.3);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+}
+.pro-heading h3{
+    font-size: 22px;
+}
+.progrees{
+    margin: 15px 0px;
+}
+.progrees ul{
+    list-style: none;
+}
+.progrees ul li{
+    margin: 40px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    position: relative;
+}
+.progrees ul li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 0px;
+    background-color: ghostwhite;
+    width: 100%;
+    height: 20px;
+    border-radius: 1000px;
+}
+.progrees ul li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 15px);
+    left: 0px;
+    background-color: red;
+    width: 0;
+    height: 20px;
+    border-radius: 1000px;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+.programming li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 90%;
+        background-color:#FF0000;
+    }
+}
+.programming li.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 80%;
+        background: #9400D3;
+    }
+}
+.programming li.js::after{
+    animation-name: js;
+}
+@keyframes js{
+    to{
+        width: 1%;
+        background-color: #00FF00;
+    }
+}
+.programming li.py::after{
+    animation-name: py;
+}
+@keyframes py{
+    to{
+        width: 70%;
+        background-color:#FF7F00;
+    }
+}
+.programming li.c::after{
+    animation-name: c;
+}
+@keyframes c{
+    to{
+        width: 10%;
+        background-color: #0000FF;
+    }
+}
+.programming li.cpp::after{
+    animation-name: cpp;
+}
+@keyframes cpp{
+    to{
+        width: 3%;
+        background: #FFFF00;
+    }
+}
+.programming li.java::after{
+    animation-name: java;
+}
+@keyframes java{
+    to{
+        width: 1%;
+        background: #4B0082;
+    }
+}
+
+/* Skill part end here */
+
+/*Contact part start here*/
+.contact-part{
+    background-color: #39a4ac;
+    padding: 1% 7%;
+}
+.achievement{
+    padding: 10px 0px;
+}
+.achievement h2{
+    text-align: center;
+    color: white;
+}
+.achievement .dot-hr{
+    color: white;
+    margin: 10px auto;
+}
+.achievement ol{
+    line-height: 26px;
+    color: white;
+}
+.contact{
+    text-align: center;
+    color: white;
+}
+.contact .dot-hr{
+    margin: 10px auto;
+}
+.contact input,textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    resize: none;
+    font-size: 1rem;
+}
+.contact button{
+    width: 120px;
+    padding: 12px;
+    margin: 5px 5px;
+    border: none;
+    outline: none;
+    background: #052d2f;
+    color: white;
+    border-radius: 10px;
+}
+.contact-links{
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+}
+.contact-links h2{
+    margin: 10px auto;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links button{
+    width: 50px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 25px;
+    transition: 1s;
+    font-size: 30px;
+    margin: 7px;
+    padding: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.yt:hover{
+    color: #c4302b;
+    transition: 1s;
+}
+.fac:hover{
+    color: #4267B2;
+    transition: 1s;
+}
+.twi:hover{
+    color: #00acee;
+    transition: 1s;
+}
+.ins:hover{
+    color: #3f729b;
+    transition: 1s;
+}
+/*Contact part end here*/
+
+/*footer part start here*/
+.footer-part{
+    width: 100%;
+    background: #000600;
+    color: white;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu a{
+    margin: 10px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    text-align: center;
+}
+.footer-menu a:hover{
+    color: gray;
+    transition: 1s;
+}
+.footer-dis{
+    padding-top: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 0.5rem;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+/*footer part end here*/
